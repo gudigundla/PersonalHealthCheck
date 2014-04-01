@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" 
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+<LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    	<TextView
+        android:id="@+id/textViewAddEventTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/darker_gray"
+        android:text="New Event"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="25dip" 
+        android:gravity="center_vertical|center_horizontal" />
+        
+        
+        <EditText
+            android:id="@+id/editTextEventName"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+    
+            android:hint="Tap to enter name" >
+
+            
+        </EditText>
+
+        <View
+		android:layout_width="fill_parent"
+		android:layout_height="1dip"
+		android:background="@android:color/darker_gray" />
+        
+        
+        <TextView
+            android:id="@+id/textViewFrom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="From"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/buttonFromDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="Button" />
+            <Button
+                android:id="@+id/buttonFromTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Button" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textViewTo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="To"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/buttonToDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Button"
+                android:layout_weight="2" />
+
+            <Button
+                android:id="@+id/buttonToTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Button" 
+                android:layout_weight="1"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayoutAllDay"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:clickable="true"  >
+
+            <TextView
+                android:id="@+id/textViewAllDay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="All Day"
+                android:layout_gravity="right"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+            <CheckBox
+                android:id="@+id/checkBoxAllDay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right" />
+
+        </LinearLayout>
+        
+        <View
+		android:layout_width="fill_parent"
+		android:layout_height="1dip"
+		android:background="@android:color/darker_gray" />
+
+        <LinearLayout
+            android:id="@+id/linearLayoutRepeat"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" 
+            android:clickable="true">
+
+            <LinearLayout
+                android:id="@+id/linearLayout5"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textViewRepeat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Repeat"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/textViewRepreatMessage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Small Text"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            </LinearLayout>
+
+            <RadioButton
+                android:id="@+id/radioButtonRepeat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:layout_gravity="right"
+                android:text="" />
+
+        </LinearLayout>
+
+                <View
+		android:layout_width="fill_parent"
+		android:layout_height="1dip"
+		android:background="@android:color/darker_gray" />
+
+             <EditText
+            android:id="@+id/editTextLocation"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dip"
+            android:hint="Tap to enter note" >
+
+            
+        </EditText>
+                
+        <LinearLayout
+            android:id="@+id/linearLayoutNotification"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" 
+            android:clickable="true">
+
+            <LinearLayout
+                android:id="@+id/linearLayout6"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textViewNotofication"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Notification"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/textViewMessage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Some minutes before"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            </LinearLayout>
+
+            <RadioButton
+                android:id="@+id/radioButtonNotofication"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:layout_gravity="right"
+                android:text="" />
+
+        </LinearLayout>
+
+        <View
+		android:layout_width="fill_parent"
+		android:layout_height="1dip"
+		android:background="@android:color/darker_gray" />
+        
+        <LinearLayout 
+                android:id="@+id/linearLayout7"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+       
+        
+                                <Button
+                                    android:id="@+id/buttonAddNewEvent"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:text="Add" />
+
+                                <Button
+                                    android:id="@+id/buttonCancelingAddNewEvent"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:text="Cancel" />
+            
+        </LinearLayout>
+        
+</LinearLayout>
+    </ScrollView>
+    
+
+
+
+

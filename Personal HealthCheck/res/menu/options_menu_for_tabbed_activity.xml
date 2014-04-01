@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <group android:id="@+id/groupOptionsMenu">
+        <item android:id="@+id/itemAddNewEvent" android:title="Add"></item>
+        <item android:id="@+id/itemExitApp" android:title="Exit"></item>
+    </group>
+    
+
+</menu>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <group android:id="@+id/groupEventsListViewContextMenu">
+        <item android:id="@+id/itemEditEvent" android:title="Edit"></item>
+        <item android:id="@+id/itemDeleteEvent" android:title="Delete">
+            <menu>
+                <group android:id="@+id/groupDeleteMenu" android:checkableBehavior="none">
+                    <item android:id="@+id/itemDeleteAllAfterThis" android:title="All occurences after this event"/>
+                    <item android:id="@+id/itemDeleteWhole" android:title="All events"/>
+                </group>
+            </menu>
+        </item>
+        <item android:id="@+id/itemAddNewEvent" android:title="Add"></item>
+    </group>
+    
+
+</menu>

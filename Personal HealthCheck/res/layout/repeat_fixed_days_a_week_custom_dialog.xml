@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="@android:color/background_light" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@android:color/background_dark"
+            android:text="Starts On:" />
+
+    <Button
+        android:id="@+id/buttonRepeatFixedDaysStartsOn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="4"
+        android:enabled="false"
+        android:text="" />
+        
+    </LinearLayout>
+
+      <View
+		android:layout_width="fill_parent"
+		android:layout_height="1dip"
+		android:background="@android:color/darker_gray" />
+    
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@android:color/background_dark"
+            android:text="Ends On:" />
+
+        <Button
+            android:id="@+id/buttonRepeatFixedDaysEndOn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:text="Formatted Date" />
+
+    </LinearLayout>
+
+      <View
+		android:layout_width="fill_parent"
+		android:layout_height="1dip"
+		android:background="@android:color/darker_gray" />
+    
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/buttonRepeatFixedDaysDialogDone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Done" />
+
+        <Button
+            android:id="@+id/buttonRepeatFixedDaysDialogCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Cancel" />
+
+    </LinearLayout>
+
+</LinearLayout>

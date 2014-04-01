@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginTop="25dip"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/updateAppointmentTitle"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="25dip" />
+
+    <EditText
+        android:id="@+id/editTextAppointmnetName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip" />
+
+    <TextView
+        android:id="@+id/textViewDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:text="Large Text"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+    <TextView
+        android:id="@+id/textViewTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:text="Large Text"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textViewNotesTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Notes"
+        android:layout_marginTop="20dip"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+    <EditText
+        android:id="@+id/editTextNotes"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:inputType="textMultiLine"
+        android:lines="2" >
+
+        <requestFocus />
+
+    </EditText>    
+    
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        
+        android:gravity="bottom" >
+
+        <Button
+            android:id="@+id/buttonUpdateAppointment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dip"
+            android:layout_weight="1"
+            android:text="@string/updateButtonText" />
+
+        <Button
+            android:id="@+id/buttonCancelAppointmentUpdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dip"
+            android:layout_weight="1"
+            android:text="@string/cacelButtonText" />
+
+    </LinearLayout>
+
+</LinearLayout>

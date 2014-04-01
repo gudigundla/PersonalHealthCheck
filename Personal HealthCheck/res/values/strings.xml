@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, PersonalHealthCheckMainActivity!</string>
+    <string name="app_name">Personal HealthCheck</string>
+    <string name="titlePersonalHealthCheck">Personal HealthCheck</string>
+    <string name="appointments">Appointments</string>
+    <string name="prescriptions">Prescriptions</string>
+    <string name="tasks">Tasks</string>
+    <string name="refills">Refills</string>
+    <string name="updateAppointmentTitle">Update Appointment</string>
+    <string name="updateButtonText">Update</string>
+    <string name="cacelButtonText">Cancel</string>
+    <string name="appointments_title">Appointments</string>
+    <string name="previous"> &lt;&lt; </string>
+    <string name="next"> &gt;&gt;</string>
+
+</resources>

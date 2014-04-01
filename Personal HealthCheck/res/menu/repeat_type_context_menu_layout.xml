@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <group android:id="@+id/groupRepeatType" android:checkableBehavior="single">
+        <item android:id="@+id/itemOneTimeEvents" android:title="One-time event"></item>
+        <item android:id="@+id/itemDaily" android:title="Daily"></item>
+        <item android:id="@+id/itemDailyMultipleTimes" android:title="Daily multiple times"></item>
+        <item android:id="@+id/itemEveryWeekDayMonToFri" android:title="Every weekday (Mon-Fri)"></item>
+        <item android:id="@+id/itemEveryMonWedFri" android:title="Every Mon, Wed &amp; Fri"></item>
+        <item android:id="@+id/itemEveryTuesThurs" android:title="Every Tues &amp; Thurs"></item>
+        <item android:id="@+id/itemWeekly" android:title="Weekly"></item>
+        <item android:id="@+id/itemMonthly" android:title="Monthly"></item>
+        <item android:id="@+id/itemYearly" android:title="Yearly"></item>
+    </group>
+    
+
+</menu>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textViewMainActivityTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/darker_gray"
+        android:text="@string/titlePersonalHealthCheck"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="25dip" 
+        android:gravity="center_vertical|center_horizontal" />
+
+    <TextView
+        android:id="@+id/textViewAppointments"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dip"
+        android:text="@string/appointments"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="20dip" 
+        />
+
+    <TextView
+        android:id="@+id/textViewPresciptions"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dip"
+        android:text="@string/prescriptions"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="20dip" />
+
+    <TextView
+        android:id="@+id/textViewTasks"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dip"
+        android:text="@string/tasks"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="20dip" />
+
+    <TextView
+        android:id="@+id/textViewRefills"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dip"
+        android:text="@string/refills"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="20dip" />
+
+</LinearLayout>
